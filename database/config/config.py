@@ -1,0 +1,14 @@
+import firebase_admin
+from firebase_admin import credentials
+from firebase_admin import firestore
+
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+
+cred = credentials.Certificate(os.getenv("KEY_JSON_DATABASE_GOOGLE"))
+firebase_admin.initialize_app(cred)
+
+database = firestore.client()
