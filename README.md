@@ -33,14 +33,14 @@ $ uvicorn main:app --reload
 
 > As rotas são compostas pelo endereço base (https://api-proagro-facil.herokuapp.com) mais o recurso que você deseja acessa.
 
-|Request|URL| Detalhes|
-|:-------:|:-----:|:------:|
-|GET | /consultar | consulta todos os comunicados existentes no banco de dados.|
-|GET |  /consultar/{id} | consulta um comunicado pelo seu id|
-|GET | /consultar/cpf/{cpf} | consulta um comunicado pelo seu CPF|
-|POST | /registrar | registra um novo comunicado no banco de dados. |
-| PUT | /consultar/atualizar/{id} | atualiza os dados de um comunicado.|
-| DELETE | /consultar/deletar/{cpf} |  apagar um comunicado do banco de dados|
+|Método|Rota| Funcionalidade| Acesso |
+|:-------:|:-----:|:------:|:------:|
+|GET | /consultar | Consulta todos os comunicados existentes no banco de dados.| Público |
+|GET |  /consultar/{id} | Consulta um comunicado pelo seu id| Público |
+|GET | /consultar/cpf/{cpf} | Consulta um comunicado pelo seu CPF| Público |
+|POST | /registrar | Registra um novo comunicado no banco de dados. | Público |
+| PUT | /consultar/atualizar/{id} | Atualiza os dados de um comunicado.| Público |
+| DELETE | /consultar/deletar/{cpf} |  Apagar um comunicado do banco de dados| Público |
 
 
 
