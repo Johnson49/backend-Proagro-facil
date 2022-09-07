@@ -19,10 +19,12 @@ Backend do sistema de comunicação de perda do programa Proagro fácil. Fronten
 :warning: Antes de rodar a aplicação é necessario ter uma chave json para se conectar ao banco de dados do firebase. Para saber como consegui-la, acesse a documentação do Firebase [aqui](https://firebase.google.com/docs/firestore/quickstart).
 
 ```python
+
 $ git clone https://github.com/Johnson49/backend-Proagro-facil
 $ cd backend-Proagro-facil
 $ pip install -r requirements
 $ uvicorn main:app --reload
+
 ```  
 
 ## Deploy da Aplicação 
