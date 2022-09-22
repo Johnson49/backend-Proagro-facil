@@ -25,15 +25,7 @@ pip install -r requirements
 uvicorn main:app --reload
 ```  
 
-## Deploy da Aplicação 
-> https://api-proagro-facil.herokuapp.com
-
-## Documentação da API 
-> https://api-proagro-facil.herokuapp.com/docs
-
 ## EndPoints
-
-> As rotas são compostas pelo endereço base (https://api-proagro-facil.herokuapp.com) mais o recurso que você deseja acessa.
 
 |Método|Rota| Funcionalidade| Acesso |
 |:-------:|:-----:|:------:|:------:|
